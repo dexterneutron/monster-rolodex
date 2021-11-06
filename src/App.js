@@ -1,14 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import { Component } from 'react';
 
-function App() {
+class App extends Component {
+constructor(){
+  super();
+  this.state={
+    string:'Hello Felix'
+  };
+};
+render() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        {this.state.string}
         </p>
+        <button onClick={()=>this.setState({string:'Hello Yacira'})}>Click me!</button>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -22,4 +31,5 @@ function App() {
   );
 }
 
+}
 export default App;
