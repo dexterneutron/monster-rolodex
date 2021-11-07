@@ -1,1 +1,1 @@
-My version of the rolodex monster app for the react bootcamp
+My version of the monster-rolodex app for the react bootcamp
