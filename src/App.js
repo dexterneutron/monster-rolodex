@@ -29,7 +29,7 @@ render() {
     )
   return (
     <div className="App">
-    <h1>Master Rolodex</h1>
+    <h1>Monster Rolodex</h1>
     <SearchBox
     placeholder="Search Monsters"
     handleChange={this.handleChange}
